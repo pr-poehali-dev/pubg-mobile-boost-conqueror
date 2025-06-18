@@ -17,8 +17,20 @@ const Pricing = () => {
       ],
     },
     {
+      name: "Silver → Gold",
+      price: 600,
+      time: "1-2 дня",
+      popular: false,
+      features: [
+        "Быстрое выполнение",
+        "Профи игроки",
+        "Гарантия результата",
+        "Поддержка 24/7",
+      ],
+    },
+    {
       name: "Gold → Platinum",
-      price: 1200,
+      price: 700,
       time: "2-3 дня",
       popular: true,
       features: [
@@ -29,21 +41,9 @@ const Pricing = () => {
       ],
     },
     {
-      name: "Diamond → Crown",
-      price: 2500,
-      time: "3-5 дней",
-      popular: false,
-      features: [
-        "Топ игроки",
-        "Максимальная безопасность",
-        "Индивидуальный подход",
-        "Статистика игр",
-      ],
-    },
-    {
-      name: "Crown → Ace",
-      price: 4000,
-      time: "5-7 дней",
+      name: "Platinum → Ace",
+      price: 800,
+      time: "2-3 дня",
       popular: false,
       features: [
         "Элитные игроки",
